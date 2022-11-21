@@ -1,0 +1,19 @@
+{{>header}}
+
+{{>navigation}}
+
+<div class="row">
+  <div class="leftcolumn">
+    {{#articles}}
+    <div class="card">
+      <h2>{{title}}</h2>
+      {{{content}}}
+    </div>
+    {{/articles}}
+  </div>
+
+  {{>sidebar}}
+
+</div>
+
+{{>footer}}

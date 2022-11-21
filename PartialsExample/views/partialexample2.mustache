@@ -1,0 +1,14 @@
+<h3>I'm another partial, and I use data from the template object!</h3>
+<p>I can access template data: {{somekey}}</p>
+{{#boolkey1}}
+<p>Including booleans (boolkey1)</p>
+{{/boolkey1}}
+{{#boolkey2}}
+<p>Including booleans (boolkey2)</p>
+{{/boolkey2}}
+<p>And arrays of data...</p>
+<ul>
+  {{#somearray}}
+  <li>{{.}}</li>
+  {{/somearray}}
+</ul>
